@@ -1,0 +1,36 @@
+body{
+    background-color: #bac7ba;
+}
+#calculator{
+    height: 330px;
+    width: 280px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+.display{
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 23px;
+    font-weight: bold;
+}
+.button{
+    width: 64px;
+    height: 40px;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: honeydew;
+    box-shadow: 1px 1px 3px gray;
+}
+.button:hover{
+    color: red;
+}
+.button:focus{
+    outline: 0;
+}
